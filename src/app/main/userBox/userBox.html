@@ -1,0 +1,9 @@
+<div class="left">
+    <div class="userList">客户列表</div>
+    <div class="users">
+        <div ng-repeat="item in userList track by $index" class="list-show">
+            <img ng-src="{{item.head}}" alt="" class="img-show" onerror="this.src='/assets/images/default.png'">
+            <a>{{item.name}}</a>
+        </div>
+    </div>
+</div>

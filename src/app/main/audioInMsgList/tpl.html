@@ -1,0 +1,7 @@
+<div class="audio-in-msg-list" ng-click="clickAudio()">
+  <div ng-show="!playing" class="glyphicon glyphicon-triangle-right"></div>
+  <div ng-show="playing" class="glyphicon glyphicon-option-horizontal"></div>
+  <span ng-class="{'audio-seconds-left':float=='left'
+  ,'audio-seconds-right':float=='right'}">{{msg.time}}s</span>
+  <audio ng-src="{{msg.otherurl}}" style="display:none"></audio>
+</div>

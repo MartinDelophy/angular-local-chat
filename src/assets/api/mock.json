@@ -1,0 +1,190 @@
+[
+    {
+        "id": 1,
+        "content": {
+            "msgId": "pc20171016104559849",
+            "userInfo": {
+                "name": "angular",
+                "userId": "1000_1578",
+                "head": "/assets/images/angular.png",
+                "userType": "pc"
+            },
+            "body": {
+                "message": "bootstrap 你的样式有问题",
+                "type": "text"
+            }
+        },
+        "createTime": "2017-10-16 10:47:40",
+        "fromFans": false,
+        "cusName": "angular",
+        "pid": 1000,
+        "msgType": "text",
+        "cusId": 1578
+    },
+    {
+        "id": 2,
+        "content": {
+            "msgId": "wx1508121150738",
+            "userInfo": {
+                "name": "bootstrap",
+                "userId": "1000_2141",
+                "head": "/assets/images/bootstrap.png",
+                "userType": "wx"
+            },
+            "body": {
+                "message": {
+                    "time": "2",
+                    "otherurl": "http://devpicserver-1252328573.cossh.myqcloud.com/kf/f2baa18880184ecb8485046ce6574aa1.mp3",
+                    "format": "mp3",
+                    "url": "http://devpicserver-1252328573.cossh.myqcloud.com/kf/abe285de1aad40e0bc9a187771d18f11.amr"
+                },
+                "type": "voice"
+            }
+        },
+        "createTime": "2017-10-16 10:32:31",
+        "fromFans": false,
+        "cusName": "bootstrap",
+        "pid": 1000,
+        "msgType": "voice",
+        "cusId": 1578
+    },
+    {
+        "id": 3,
+        "content": {
+            "msgId": "pc20171212184406448",
+            "userInfo": {
+                "name": "gulp",
+                "userId": "1000_1569504",
+                "head": "/assets/images/gulp.png",
+                "userType": "pc"
+            },
+            "body": {
+                "message": {
+                    "url": "/assets/resource/arrange.png"
+                },
+                "type": "image"
+            }
+        },
+        "createTime": "2017-12-12 18:44:07",
+        "fromFans": false,
+        "cusName": "gulp",
+        "pid": 1000,
+        "msgType": "image",
+        "cusId": 1569504
+    },
+    {
+        "id": 4,
+        "content": {
+            "msgId": "wx1513951878158",
+            "userInfo": {
+                "name": "angular",
+                "userId": "1000_1578",
+                "head": "/assets/images/angular.png",
+                "userType": "wx"
+            },
+            "body": {
+                "message": {
+                    "time": 0,
+                    "thumbnailUrl": "/assets/images/angular.png",
+                    "format": "mp4",
+                    "url": "https://c.weimobwmc.com/kf/77bb2d6ed53b40d3b517369ac2bc60f7.mp4"
+                },
+                "type": "video"
+            }
+        },
+        "createTime": "2017-12-22 22:11:19",
+        "fromFans": false,
+        "cusName": "angular",
+        "pid": 100000000901,
+        "msgType": "video",
+        "cusId": 1006246792
+    },
+    {
+        "id": 5,
+        "content": {
+            "msgId": "pc20171016104559849",
+            "userInfo": {
+                "name": "jasmine",
+                "userId": "1000_1578))sd",
+                "head": "/assets/images/jasmine.png",
+                "userType": "pc"
+            },
+            "body": {
+                "message": "测试说法",
+                "type": "text"
+            }
+        },
+        "createTime": "2017-10-16 10:47:40",
+        "fromFans": false,
+        "cusName": "jasmine",
+        "pid": 1000,
+        "msgType": "text",
+        "cusId": 1578
+    },
+    {
+        "id": 6,
+        "content": {
+            "msgId": "pc20171016104559849",
+            "userInfo": {
+                "name": "karma",
+                "userId": "1000_1578zxczczcc",
+                "head": "/assets/images/karma.png",
+                "userType": "pc"
+            },
+            "body": {
+                "message": "bootstrap 你的样式有问题",
+                "type": "text"
+            }
+        },
+        "createTime": "2017-10-16 10:47:40",
+        "fromFans": false,
+        "cusName": "karma",
+        "pid": 1000,
+        "msgType": "text",
+        "cusId": 1578
+    },
+    {
+        "id": 7,
+        "content": {
+            "msgId": "pc20171016104559849",
+            "userInfo": {
+                "name": "less",
+                "userId": "1000_1578zxczczxc",
+                "head": "/assets/images/less.png",
+                "userType": "pc"
+            },
+            "body": {
+                "message": "bootstrap 你的样式有问题",
+                "type": "text"
+            }
+        },
+        "createTime": "2017-10-16 10:47:40",
+        "fromFans": false,
+        "cusName": "less",
+        "pid": 1000,
+        "msgType": "text",
+        "cusId": 1578
+    },
+    {
+        "id": 8,
+        "content": {
+            "msgId": "pc20171016104559849",
+            "userInfo": {
+                "name": "protactor",
+                "userId": "1000_1578zxc",
+                "head": "/assets/images/protractor.png",
+                "userType": "pc"
+            },
+            "body": {
+                "message": "bootstrap 你的样式有问题",
+                "type": "text"
+            }
+        },
+        "createTime": "2017-10-16 10:47:40",
+        "fromFans": false,
+        "cusName": "protactor",
+        "pid": 1000,
+        "msgType": "text",
+        "cusId": 1578
+    }
+]

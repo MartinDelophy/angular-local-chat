@@ -1,0 +1,32 @@
+<div class="send-box">
+    <div class="emoji-bar" ng-if="showemoji">
+        <div ng-repeat="j in h | doneTo:(emoji.length/chunkSize+1) ">
+            <span class="emoji-style" ng-repeat="i in h | doneTo:chunkSize "
+                ng-click="appendEmoji(emoji[j*5 + i])">{{emoji[j*5 + i] }}</span>
+        </div>
+
+    </div>
+    <div class="box-menu">
+        <p class="tool-tip"></p>
+        <img ng-src="/assets/images/smile.png" alt="发送表情" ng-mouseenter="showTip($event)" ng-mouseleave="hideTip()"
+            ng-click="switchEmojo()">
+        <img ng-src="/assets/images/garb.png" alt="清除全部消息" ng-click="clear()" ng-mouseenter="showTip($event)"
+            ng-mouseleave="hideTip()">
+        <img ng-src="/assets/images/back.png" alt="撤回上一条信息" ng-click="recall()" ng-mouseenter="showTip($event)"
+            ng-mouseleave="hideTip()">
+        <img ng-src="/assets/images/audio.png" ng-click="goAudio()" audioback audio-url="fileUrl" audio-time="audioTime"
+            alt="录制语音" ng-mouseenter="showTip($event)" ng-mouseleave="hideTip()" />
+        <img ng-src="/assets/images/video.png" alt="录制视频" videoback video-url="fileUrl" ng-mouseenter="showTip($event)"
+            ng-mouseleave="hideTip()" />
+        <img ng-src="/assets/images/file.png" alt="上传文件" fileback file-url="fileUrl" ng-mouseenter="showTip($event)"
+            ng-mouseleave="hideTip()" />
+
+        <img ng-src="/assets/images/cut.png" alt="屏幕截取" feedback img-url="fileUrl" ng-mouseenter="showTip($event)"
+            ng-mouseleave="hideTip()" />
+
+        <button class="btn btn-default msg-btn" ng-click="send()">发送</button>
+    </div>
+    <div class="box-area" ng-click="this.showemoji =false">
+        <textarea class="form-control msg-input" ng-model="input.msg">{{input.msg}}</textarea>
+    </div>
+</div>
