@@ -16,6 +16,11 @@
         <label for="inputfile" class="form-label">请输入密码：</label>
         <input type="password" class="form-control" ng-model="input.password" placeholder="请输入密码">
       </div>
+      <div id="identify-box" class="form-group form-item">
+        <label for="inputfile" class="form-label">请输入验证码: </label>
+        <input type="text" class="form-control" style="width:calc(100% - 130px)" placeholder="请输入验证码"
+          ng-model="input.check">
+      </div>
       <button type="submit" class="btn btn-primary" ng-click="clickLogin()">登录</button>
     </form>
   </div>

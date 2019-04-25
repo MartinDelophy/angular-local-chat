@@ -6,6 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
+  //绑定入口
   function MainController($log, $timeout, webDevTec, toastr, $cookies, $rootScope) {
     // $log("total_data", arguments)
     var vm = this;

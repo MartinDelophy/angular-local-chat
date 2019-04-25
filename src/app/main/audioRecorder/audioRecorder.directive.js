@@ -16,7 +16,7 @@
             restrict: 'A',
             scope: {
                 audioUrl: '=',//将指令内部scope字段和指令外部模块scope字段双向绑定  
-                audioTime: "="
+                audioTime: "="//增加了生成的url及音频录制时间
             },
             link: function ($scope, element, attrs) {
                 $scope.playing = false;

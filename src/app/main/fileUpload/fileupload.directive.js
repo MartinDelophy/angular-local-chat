@@ -7,7 +7,7 @@
         .directive('fileback', ['$compile', feedbackDirective]);
 
     /**
-     * 本指令用于切换语音状态，同时针对语音功能进行录制
+     * 本指令用于上传文件
      * @param {*} $compile 
      */
 
@@ -15,7 +15,7 @@
         return {
             restrict: 'A',
             scope: {
-                fileUrl: '=',//将指令内部scope字段和指令外部模块scope字段双向绑定  
+                fileUrl: '=',//将指令内部scope字段和指令外部模块scope字段双向绑定  ，绑定上传的url地址
             },
             link: function ($scope, element, attrs) {
                 console.log("in")

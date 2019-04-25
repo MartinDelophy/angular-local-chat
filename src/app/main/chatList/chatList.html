@@ -6,23 +6,24 @@
                 onerror="this.src='/assets/images/default.png'" ng-if="item.content.userInfo.name != 'Administrator'" />
         </div>
         <div class="chat-body">
-
+            <!-- 文本 -->
             <div class="chat-wrapper" ng-if="item.msgType=='text'">
                 {{item.content.body.message}}
             </div>
-
+            <!-- 图像 -->
             <div class="chat-wrapper" ng-if="item.msgType=='image'">
                 <div class="msg-image" img-in-msg-list src="item.content.body.message.url"></div>
             </div>
-
+            <!-- 撤回消息 -->
             <div class="chat-recall" ng-if="item.msgType=='recall'" ng-style="{'right':{{middleOffset}}}">
                 {{item.content.body.message}}
             </div>
-
+            <!-- 视频 -->
             <div class="chat-wrapper" ng-if="item.msgType=='video'">
                 <!-- {{item.content.body.message.url}} -->
                 <div video-in-msg-list options="item.content.body.message"></div>
             </div>
+            <!-- 语音 -->
             <div class="chat-wrapper" ng-if="item.msgType=='voice'">
                 <div audio-in-msg-list msg="item.content.body.message"></div>
                 <!-- {{item.content.body.message.url}} -->

@@ -6,6 +6,13 @@
     .config(routerConfig);
 
   /** @ngInject */
+  //用于配置路由
+  /**
+   * 
+   * @param {*} $stateProvider  提供状态provider
+   * @param {*} $urlRouterProvider 提供路由 povider
+   * 
+   */
   function routerConfig($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('login', {

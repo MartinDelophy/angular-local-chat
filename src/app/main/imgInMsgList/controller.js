@@ -1,6 +1,6 @@
 // (function () {
 'use strict';
-
+//上传图片
 angular.module('angular')
     .controller('imgInMsgListController', ['$scope', '$timeout', '$interval', '$rootScope',
         function ($scope, $timeout, $interval, $rootScope) {

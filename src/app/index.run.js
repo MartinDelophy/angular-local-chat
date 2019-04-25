@@ -1,6 +1,6 @@
-(function() {
+(function () {
   'use strict';
-
+  //启动程序入口
   angular
     .module('angular')
     .run(runBlock);
